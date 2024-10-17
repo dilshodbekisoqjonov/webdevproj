@@ -38,8 +38,8 @@ cd counter-app
    npm install
 
 ##Running the Application
-Start the development server:
-npm start
+
+Start the development server: npm start
 This will start the application on http://localhost:3000.
 
 ##Project Structure
