@@ -1,0 +1,108 @@
+/* General Styles for the entire application */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Navigation Bar Styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Section Styles */
+section {
+  padding: 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  margin: 50px auto;
+  border-radius: 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Header Styles */
+header {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Counter Button Styles */
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: #4caf50; /* Solid color for buttons */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s; /* Only change background color on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+}
+
+button:hover {
+  background-color: #45a049; /* Subtle color change on hover */
+}
+
+button:active {
+  background-color: #45a049; /* Consistent color on active state */
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Utility styles for smooth animations */
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
