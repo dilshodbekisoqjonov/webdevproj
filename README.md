@@ -40,6 +40,7 @@ cd counter-app
 ##Running the Application
 
 Start the development server: npm start
+
 This will start the application on http://localhost:3000.
 
 ##Project Structure
@@ -61,18 +62,3 @@ counter-app
 |__ README.md
 |__ package-lock.json
 
-
-
-
-
-
-
-
-
-
-
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/counter-app.git
